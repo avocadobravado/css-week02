@@ -6,7 +6,7 @@
 
 ## Description
 
-
+The objective of the assignment was to create the Latest trends and stories from Think With Google, [shown here](https://github.com/avocadobravado/css-week02/blob/master/img/google.png?raw=true). I re-created the layout of from the Google site using the Materialize.css framework, and once I was finished I built an ice cream-themed site around it. The site is responsive and has various breakpoints depending on the size of the viewport.
 
 ## Setup/Installation Requirements
 
@@ -20,15 +20,15 @@ OR...
 
 ## Screenshots of Application
 
-![screenshot of project](https://github.com/avocadobravado/css-week02/blob/master/img/scs-01.png?raw=true)
+![screenshot of project](https://github.com/avocadobravado/css-week02/blob/master/img/scs-02.png?raw=true)
+
+![screenshot of project](https://github.com/avocadobravado/css-week02/blob/master/img/scs-03.png?raw=true)
+
+![screenshot of project](https://github.com/avocadobravado/css-week02/blob/master/img/scs-04.png?raw=true)
 
 ## How to Use
 
 * Open index.html in a web browser such as Google Chrome
-
-## Known Bugs
-
-
 
 ## Support and contact details
 
@@ -52,8 +52,8 @@ OR...
 ## Acknowledgments
 
 * Color inspiration from [this packaging](https://s-media-cache-ak0.pinimg.com/originals/21/2e/82/212e820e8100cc1a1f924ba33cffa956.jpg)
-*
-
+* [Freepik](http://freepik.com) for the vectors
+* [Salt & Straw](http://saltandstraw.com) for images
 
 ## License
 
