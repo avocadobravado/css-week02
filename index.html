@@ -7,7 +7,7 @@
 
   <!--Fonts-->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Limelight|Yanone+Kaffeesatz" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <!-- CSS  -->
@@ -28,7 +28,7 @@
         </ul>
 
       <!--BRAND AND RIGHT LOGO-->
-        <a id="logo-container" href="#" class="brand-logo center"><img src="img/raven.png">Daisy &amp; Jay's</a>
+        <a id="logo-container" href="#" class="brand-logo center">Daisy &amp; Jay's</a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#">Blog</a></li>
           <li><a href="#">Contact</a></li>
@@ -54,22 +54,22 @@
        <div class="row about">
          <div class="col s12 m4">
            <div class="icon-block">
-             <img src="img/about.png">
-             <p class="light">We are Daisy and Jay, lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+             <img src="img/about.png" class="custom-img">
+             <p class="light">We are <span class="notice">Daisy and Jay</span>, lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
            </div><!--ICON BLOCK CLOSES-->
          </div><!--COL CLOSES-->
 
          <div class="col s12 m4">
            <div class="icon-block">
-             <img src="img/promise.png">
+             <img src="img/promise.png" class="custom-img">
              <p class="light">Using the only finest and ethically sourced ingredients, lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquio.</p>
            </div><!--ICON BLOCK CLOSES-->
          </div><!--COL CLOSES-->
 
          <div class="col s12 m4">
            <div class="icon-block">
-            <img src="img/location.png">
-             <p class="light">Located in the Paterson Building in downtown Flint, Michigan, we are lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+            <img src="img/location.png" class="custom-img">
+             <p class="light">Located in the <span class="notice">Paterson Building in downtown Flint, Michigan</span>, we are lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
            </div><!--ICON BLOCK CLOSES-->
          </div><!--COL CLOSES-->
        </div><!-- ABOUT CLOSES-->
@@ -90,7 +90,7 @@
   </div>
   <!--FIRST FLAVOR LIST-->
     <div class="row flavor-list">
-      <div class="col s12 m6 center">
+      <div class="col s6  center">
         <ul>
           <li>Grasshopper</li>
           <li>Honeycomb</li>
@@ -105,7 +105,7 @@
       </div><!--COL CLOSES-->
 
     <!--SECOND FLAVOR LIST-->
-      <div class="col s12 m6 center">
+      <div class="col s6 center second-flavor">
         <ul>
           <li>Butterscotch</li>
           <li>S'mores</li>
@@ -122,25 +122,28 @@
   </div><!--CONTAINER CLOSES-->
 
 <!--IMAGE OF ICE CREAM-->
-   <div class="parallax-container valign-wrapper">
+   <div class="parallax-container valign-wrapper hide-on-small-only">
      <div class="parallax"><img src="img/parlor02.jpg" alt="Ice cream"></div>
    </div>
 
 <!--BLOG-->
   <div class="container">
-    <div class="row">
-      <h4 class="center">The Latest Scoop</h4>
-      <hr>
-    </div><!--ROW CLOSE-->
-    <div class="section">
+    <div class="row flavors">
+      <div class="col s6 offset-s3 l4 offset-l4 flavor">
+        <img src="img/thescoop.png">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
       <div class="row">
 
       <!--FIRST CARD-->
         <div class="col s12 m12 xl6">
           <div class="card small bg">
               <div class="card-content">
-              <span class="card-title">4 Things You Need to Know About the Future of Cats
-              <br><p>Article - May 2017</p></span>
+              <span class="card-title">4 Ways To Beat The Heat This Summer
+              <br><p>Post - May 2017</p></span>
             </div><!--CARD IMAGE CLOSE-->
           </div><!--CARD CLOSE-->
         </div><!--COL CLOSE-->
@@ -149,11 +152,11 @@
         <div class="col s12 m6 xl3">
           <div class="card small">
             <div class="card-image">
-              <img src="img/izzygoo02.jpg">
+              <img src="img/blog01.jpg">
             </div><!--CARD IMAGE CLOSE-->
             <div class="card-content">
-              <h5>Inside Cat Marketing: Testing a Media Plan That Leads With Cat Videos</h5>
-              <p> <i class="tiny material-icons">comment</i> Interview - May 2017</p>
+              <h5>Behind the Scenes: Inside our Kitchen</h5>
+              <p> <i class="tiny material-icons">videocam</i> Video - May 2017</p>
             </div><!--CARD CONTENT CLOSE-->
           </div><!--CARD CLOSE-->
         </div><!--COL CLOSE-->
@@ -162,11 +165,11 @@
         <div class="col s12 m6 xl3">
           <div class="card small">
             <div class="card-image">
-              <img src="img/izzygoo02.jpg">
+              <img src="img/blog02.jpg">
             </div><!--CARD IMAGE CLOSE-->
             <div class="card-content">
-              <h5>The Catsumer Behaviors Shaping the Next Generation of Feline Experiences</h5>
-              <p>Perspective - May 2017</p>
+              <h5>Inspiration from around the world</h5>
+              <p>Post - May 2017</p>
             </div><!--CARD CONTENT CLOSE-->
           </div><!--CARD CLOSE-->
         </div><!--COL CLOSE-->
@@ -175,89 +178,75 @@
   </div><!--CONTAINER CLOSE-->
 
     <div class="container">
-      <div class="section">
-        <div class="row">
+      <div class="row">
 
-        <!--FOURTH CARD-->
-          <div class="col s12 m6 xl3">
-            <div class="card small">
-              <div class="card-image">
-                <img src="img/izzygoo02.jpg">
-              </div><!--CARD IMAGE CLOSE-->
+      <!--FOURTH CARD-->
+        <div class="col s12 m6 xl3">
+          <div class="card small">
+            <div class="card-image">
+              <img src="img/blog03.jpg">
+            </div><!--CARD IMAGE CLOSE-->
+            <div class="card-content">
+              <h5>Tour of the Flint Farmers' Market with Daisy</h5>
+              <p><i class="tiny material-icons">videocam</i> Video - May 2017</p>
+            </div><!--CARD CONTENT CLOSE-->
+          </div><!--CARD CLOSE-->
+        </div><!--COL CLOSE-->
+
+      <!--FIFTH CARD-->
+        <div class="col s12 m6 xl3">
+          <div class="card small">
+            <div class="card-image">
+              <img src="img/blog04.jpg">
+            </div><!--CARD IMAGE CLOSE-->
+            <div class="card-content">
+              <h5>Birthday Parties at Daisy &amp; Jay's</h5>
+              <p>Post - May 2017</p>
+            </div><!--CARD CONTENT CLOSE-->
+          </div><!--CARD CLOSE-->
+        </div><!--COL CLOSE-->
+
+        <!--SIXTH CARD-->
+        <div class="col s12 m12 xl6">
+          <div class="card small bg2">
               <div class="card-content">
-                <h5>The Rise of Cat Videos on the TV Screen</h5>
-                <p><i class="tiny material-icons">insert_chart</i> Infographic - May 2017</p>
-              </div><!--CARD CONTENT CLOSE-->
-            </div><!--CARD CLOSE-->
-          </div><!--COL CLOSE-->
-
-        <!--FIFTH CARD-->
-          <div class="col s12 m6 xl3">
-            <div class="card small">
-              <div class="card-image">
-                <img src="img/izzygoo02.jpg">
-              </div><!--CARD IMAGE CLOSE-->
-              <div class="card-content">
-                <h5>Catnip Planning and Purchasing Has Evolved on Meowbile</h5>
-                <p>Article - May 2017</p>
-              </div><!--CARD CONTENT CLOSE-->
-            </div><!--CARD CLOSE-->
-          </div><!--COL CLOSE-->
-
-          <!--SIXTH CARD-->
-          <div class="col s12 m12 xl6">
-            <div class="card small bg">
-                <div class="card-content">
-                <span class="card-title">Gen-C: A Look Inside Its Mobile Mindset
-                <br><p><i class="tiny material-icons">assignment</i> Report - April 2017</p></span>
-              </div><!--CARD IMAGE CLOSE-->
-            </div><!--CARD CLOSE-->
-          </div><!--COL CLOSE-->
-
-        </div><!--ROW CLOSE-->
-    </div>
-  </div>
+              <span class="card-title">What is Sassafras, anyway?
+              <br><p><i class="tiny material-icons">videocam</i> Video - April 2017</p></span>
+            </div><!--CARD IMAGE CLOSE-->
+          </div><!--CARD CLOSE-->
+        </div><!--COL CLOSE-->
+      </div><!--ROW CLOSE-->
+    </div><!--CONTAINER CLOSE-->
 
   <!--IMAGE OF ICE CREAM-->
-     <div class="parallax-container valign-wrapper">
-       <div class="parallax"><img src="img/parlor01.jpg" alt="Ice cream"></div>
-     </div>
+   <div class="parallax-container valign-wrapper hide-on-small-only">
+     <div class="parallax"><img src="img/parlor01.jpg" alt="Ice cream"></div>
+   </div>
 
-  <footer class="page-footer teal">
-  <div class="container">
-    <div class="row">
-      <div class="col l6 s12">
-        <h5 class="white-text">Company Bio</h5>
-        <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
-      </div>
-      <div class="col l3 s12">
-        <h5 class="white-text">Settings</h5>
-        <ul>
-          <li><a class="white-text" href="#!">Link 1</a></li>
-          <li><a class="white-text" href="#!">Link 2</a></li>
-          <li><a class="white-text" href="#!">Link 3</a></li>
-          <li><a class="white-text" href="#!">Link 4</a></li>
-        </ul>
-      </div>
-      <div class="col l3 s12">
-        <h5 class="white-text">Connect</h5>
-        <ul>
-          <li><a class="white-text" href="#!">Link 1</a></li>
-          <li><a class="white-text" href="#!">Link 2</a></li>
-          <li><a class="white-text" href="#!">Link 3</a></li>
-          <li><a class="white-text" href="#!">Link 4</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="footer-copyright">
+  <!--FOOTER-->
+  <footer class="page-footer">
     <div class="container">
-    Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      <div class="row">
+        <div class="col l6 s12">
+          <h4>CONTACT US</h5>
+          <p>Feel free to reach out to us. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <div class="center">
+            <a class="waves-effect waves-light btn"><i class="material-icons right">send</i>SEND</a>
+          </div>
+
+        </div>
+        <div class="col l6 s12">
+          <h4>VISIT FLINT, MICHIGAN</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+        </div>
+      </div>
     </div>
-  </div>
-</footer>
+    <div class="footer-copyright">
+      <div class="container">
+      Made with <a href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-3.2.1.js"integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="crossorigin="anonymous"></script>
