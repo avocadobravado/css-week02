@@ -1,0 +1,43 @@
+/*GLOBAL STYLES*/
+
+body {
+  background-color: #f5f5f5;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+
+h4 {
+  margin-bottom: 0;
+  margin-left: 1%;
+}
+
+/* CARD SECTION*/
+
+.card .card-title {
+  font-size: 1.5em;
+}
+
+.card-title p {
+  font-size: 0.7em;
+}
+
+.card-title {
+  width: 70%;
+  padding-top: 15%;
+  text-shadow: 1px 1px 1px #555;
+  line-height: 1em;
+}
+
+.card .card-content {
+  padding-top: 1%;
+}
+
+.card-content {
+  text-align: center;
+}
+
+.card-content h5 {
+  font-size: 1em;
+  line-height: 1.25em;
+  padding-bottom: 3%;
+}
