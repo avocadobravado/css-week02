@@ -1,4 +1,4 @@
-# _Product Website_
+# _Responsive Design Website_
 
 #### Week 2 Independent Project - CSS
 
