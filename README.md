@@ -40,6 +40,7 @@ OR...
 
 * HTML
 * CSS
+* jQuery
 
 **Other Technologies:**
 
@@ -50,6 +51,8 @@ OR...
 
 ## Acknowledgments
 
+* Color inspiration from [this packaging](https://s-media-cache-ak0.pinimg.com/originals/21/2e/82/212e820e8100cc1a1f924ba33cffa956.jpg)
+*
 
 
 ## License
