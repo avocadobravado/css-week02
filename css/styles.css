@@ -13,6 +13,11 @@ h4 {
 
 /* CARD SECTION*/
 
+.section {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .card .card-title {
   font-size: 1.5em;
 }
@@ -21,11 +26,20 @@ h4 {
   font-size: 0.7em;
 }
 
+.bg {
+  background: url('../img/izzygoo01.jpg') center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .card-title {
+  color: #fff;
   width: 70%;
-  padding-top: 15%;
+  bottom: 5%;
+  left: 1%;
   text-shadow: 1px 1px 1px #555;
   line-height: 1em;
+  position: absolute;
 }
 
 .card .card-content {
@@ -40,4 +54,8 @@ h4 {
   font-size: 1em;
   line-height: 1.25em;
   padding-bottom: 3%;
+}
+
+.test img {
+  max-height: 100%;
 }
