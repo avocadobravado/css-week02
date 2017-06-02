@@ -1,9 +1,10 @@
 /*GLOBAL STYLES*/
 
 body {
-  background-color: #f5f5f5;
-  font-family: 'Roboto';
-  font-weight: 300;
+  background-color: #f8f8f8;
+  font-size: 1.42em;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #555;
 }
 
 h4 {
@@ -11,12 +12,95 @@ h4 {
   margin-left: 1%;
 }
 
-/* CARD SECTION*/
-
-.section {
-  padding-top: 0;
-  padding-bottom: 0;
+a {
+  color: #b36736;
 }
+
+/*NAV*/
+
+nav {
+  background-color: #b36736;
+}
+
+nav ul a {
+  font-size: 1.6rem;
+}
+
+nav .brand-logo {
+  font-size: 3rem;
+}
+
+.brand-logo {
+  font-family: 'Limelight';
+}
+
+.side-nav {
+  background: url('../img/pattern.png');
+}
+
+.side-nav li>a {
+  color: #fff;
+  font-size: 2em;
+  margin: .5em 0;
+}
+
+.side-nav li>a:hover {
+  color: #b36736;
+  transition: 0.9s;
+}
+
+/*HERO*/
+
+#index-banner {
+  background: url('../img/bg.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+#index-banner img {
+  max-width: 40%;
+}
+
+/*ABOUT*/
+
+.about {
+  margin-top: 5%;
+}
+
+.about img {
+  max-width: 100%;
+}
+
+.notice {
+  color: #b36736;
+  font-weight: bold;
+}
+
+/*FLAVORS*/
+
+.flavors {
+  margin-top: 5%;
+}
+
+.flavors img {
+  max-width: 100%;
+}
+.flavor-list {
+  font-size: 3rem;
+}
+
+.flavor-list {
+   line-height: 1em;
+}
+
+.flavor-list li:nth-child(odd) {
+  color: #b36736;
+}
+
+.flavor-list li:nth-child(even) {
+  color: #abd3c4;
+}
+
+/* CARD SECTION*/
 
 .card .card-title {
   font-size: 1.5em;
@@ -27,7 +111,13 @@ h4 {
 }
 
 .bg {
-  background: url('../img/izzygoo01.jpg') center center no-repeat;
+  background: url('../img/icecream01.jpg') center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg2 {
+  background: url('../img/blog05.jpg') center center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -44,6 +134,8 @@ h4 {
 
 .card .card-content {
   padding-top: 1%;
+  font-size: 0.85em;
+  color: #abd3c4;
 }
 
 .card-content {
@@ -54,8 +146,71 @@ h4 {
   font-size: 1em;
   line-height: 1.25em;
   padding-bottom: 3%;
+  color: #b36736;
 }
 
-.test img {
-  max-height: 100%;
+/*FOOTER*/
+
+footer {
+  font-size: .8em;
+  color: #b36736;
+}
+
+footer h4 {
+  font-family: 'Limelight';
+  font-size: 1.3em;
+}
+
+.page-footer {
+  background-color: #abd3c4;
+}
+
+.page-footer p {
+  color: #555;
+}
+
+.btn {
+  background-color: #b36736;
+}
+
+.btn:hover {
+  background-color: #a2c6b9;
+}
+
+/*MEDIA QUERIES*/
+
+@media only and screen (max-width: 400px) {
+  nav .brand-logo {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .about img {
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+.flavor-list {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  }
+  .card .card-content {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .card .card-content {
+    font-size: 1.55rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .card .card-content {
+    font-size: 1.65rem;
+  }
 }
