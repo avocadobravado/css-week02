@@ -18,13 +18,13 @@ OR...
 
 * View on gh-pages at [http://avocadobravado.github.io/css-week02](http://avocadobravado.github.io/css-week02)
 
-## Screenshots of Application
+## Screenshots of Website
 
-![screenshot of project](https://github.com/avocadobravado/css-week02/blob/master/img/scs-02.png?raw=true)
+![screenshot of project](https://github.com/avocadobravado/css-week02/blob/master/img/scs02.png?raw=true)
 
-![screenshot of project](https://github.com/avocadobravado/css-week02/blob/master/img/scs-03.png?raw=true)
+![screenshot of project](https://github.com/avocadobravado/css-week02/blob/master/img/scs03.png?raw=true)
 
-![screenshot of project](https://github.com/avocadobravado/css-week02/blob/master/img/scs-04.png?raw=true)
+![screenshot of project](https://github.com/avocadobravado/css-week02/blob/master/img/scs04.png?raw=true)
 
 ## How to Use
 
