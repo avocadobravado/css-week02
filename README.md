@@ -22,11 +22,11 @@ OR...
 
 ![screenshot of project](https://github.com/avocadobravado/css-week02/blob/master/img/scs02.png?raw=true)
 
---
+---
 
 ![screenshot of project](https://github.com/avocadobravado/css-week02/blob/master/img/scs03.png?raw=true)
 
---
+---
 
 ![screenshot of project](https://github.com/avocadobravado/css-week02/blob/master/img/scs04.png?raw=true)
 
